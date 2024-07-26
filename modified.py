@@ -1,5 +1,4 @@
 import numpy as np
-import nltk
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 import streamlit as st
@@ -11,7 +10,7 @@ from tensorflow.keras.preprocessing.text import one_hot
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import re
-
+import nltk
 nltk.download('stopwords')
 nltk.download('wordnet')
 leme = WordNetLemmatizer()
