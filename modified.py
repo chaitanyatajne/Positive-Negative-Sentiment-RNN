@@ -11,6 +11,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import re
 import nltk
+nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 leme = WordNetLemmatizer()
